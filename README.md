@@ -3,6 +3,9 @@ IAMovies is a **React-based movie search and discovery** application powered by 
 
 ---
 
+![ScreenRecording2025-02-02at2 46 37PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/706c11a1-4152-454b-a513-d5e8803dcc4a)
+
+---
 ## 🚀 Features
 - 🎬 **Search for movies** by name with a default search query (`Pokemon`).
 - 🗂️ **Browse movie listings** in a **grid layout** (5 per row on desktop).
@@ -44,6 +47,7 @@ npm install
 Create a **`.env`** file in the root directory and add your **OMDb API Key**:
 ```sh
 VITE_OMDB_API_KEY=your_api_key_here
+VITE_OMDB_API_BASE_URL=https://www.omdbapi.com/
 ```
 
 ### 4️⃣ Run the Project

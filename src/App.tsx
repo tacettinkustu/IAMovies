@@ -1,7 +1,7 @@
 import { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import { Footer, ScrollToTop, Loader } from './common';
+import { Footer, ScrollToTop, Loader, Header } from './common';
 
 import 'react-loading-skeleton/dist/skeleton.css';
 
@@ -12,6 +12,7 @@ const NotFound = lazy(() => import('./pages/NotFound'));
 const App = () => {
   return (
     <>
+      <Header />
       <main className=" lg:pb-14 md:pb-4 sm:pb-2 xs:pb-1 pb-0">
         <ScrollToTop>
           <Suspense fallback={<Loader />}>

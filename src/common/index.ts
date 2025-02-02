@@ -6,6 +6,7 @@ import ScrollToTop from "./ScrollToTop";
 import { SkelatonLoader, Loader } from "./Loader";
 import Error from "./Error";
 import Section from "./Section";
+import Header from "./Header";
 
 export {
   Footer,
@@ -17,4 +18,5 @@ export {
   Loader,
   Error,
   Section,
+  Header,
 };
